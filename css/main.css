@@ -11,10 +11,24 @@ h1 {
   padding: 20px 0px 10px 0px;
 }
 
+
+a {
+  color: #69CBBB;
+  text-decoration: none;
+}
+
 /*center images */
 
 img {
   display: block;
   margin: 0px auto;
   text-align: center;
+}
+
+/* When you put a period in fornt of CSS declaration, it indicates you are creating a new class. We can aplly this to div elements to create dfferent portfolio entries */
+
+.portfolio-item {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #f7f7f7;
 }
